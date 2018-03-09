@@ -8,21 +8,22 @@
   * Accent color_text: black
   */
 
-/*global styles */
+
+
+
+/*
+Global
+*/
 * {
     /* #2 #font #faces */
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     /* #2 #colorful #background */
     background-color: #F5F5F5;
-}
-
-h1 {
-    /* #2 #colourful #app-bar */
-    background-color: #3F51B5;
-    color: white;
 }
 
 button {
@@ -33,6 +34,21 @@ button {
     text-transform: uppercase;
 }
 
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+/*
+App bar
+*/
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
 
 /*styles for channel area*/
 /*LIST SECTION*/
@@ -41,21 +57,26 @@ ul{
     list-style-type: none;
 }
 /*CONTAINERS SECTION*/
-div{
-    background-color: white;
-    width: 80%;
+#tab-bar{
+  background-color: white;
+  width: 80%;
+  text-align: center;
+}
+
+.message{
+  background-color: white;
+  width: 80%;
+  margin-bottom: 8px;
+  font-size: medium;
 }
 
 /*styles for chat area*/
 p {
     /* #2 #colorful #channelandchat */
     background-color: white;
+    padding: 16px;
 }
 
-strong {
-    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
-    text-transform: uppercase;
-}
 
 h3 {
     /* #2 #font #metadata is now medium */
